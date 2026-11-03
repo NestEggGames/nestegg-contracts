@@ -1,0 +1,13 @@
+node_modules/
+cache/
+artifacts/
+
+# Secrets — never commit keys or environment files
+.env
+.env.*
+*keys*.txt
+*key*.txt
+*secret*
+*.pem
+deploy/*.txt
+keys-backup/
